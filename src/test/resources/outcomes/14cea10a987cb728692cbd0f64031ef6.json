@@ -1,0 +1,482 @@
+{
+  "name": "adding",
+  "id": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application.AddDifferentSortsOfTodos:adding",
+  "testCaseName": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application.AddDifferentSortsOfTodos",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Adding walk the lion",
+      "duration": 2295,
+      "startTime": 1483899042460,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 2,
+          "description": "Starts with an empty todo list",
+          "duration": 2074,
+          "startTime": 1483899037266,
+          "result": "SUCCESS",
+          "precondition": false,
+          "children": [
+            {
+              "number": 3,
+              "description": "Starts with a todo list containing: {}",
+              "duration": 2026,
+              "startTime": 1483899037313,
+              "result": "SUCCESS",
+              "precondition": false,
+              "children": [
+                {
+                  "number": 4,
+                  "description": "Adds todo items called: {}",
+                  "duration": 6,
+                  "startTime": 1483899039331,
+                  "result": "SUCCESS",
+                  "precondition": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "description": "Adds a todo item called: walk the lion",
+          "duration": 173,
+          "startTime": 1483899039341,
+          "result": "SUCCESS",
+          "precondition": false
+        },
+        {
+          "number": 6,
+          "description": "Should see that displayed items contain: {walk the lion}",
+          "duration": 48,
+          "startTime": 1483899039515,
+          "result": "SUCCESS",
+          "precondition": false
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "description": "Adding wash the dishes",
+      "duration": 358,
+      "startTime": 1483899042473,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 8,
+          "description": "Starts with an empty todo list",
+          "duration": 48,
+          "startTime": 1483899040001,
+          "result": "SUCCESS",
+          "precondition": false,
+          "children": [
+            {
+              "number": 9,
+              "description": "Starts with a todo list containing: {}",
+              "duration": 47,
+              "startTime": 1483899040002,
+              "result": "SUCCESS",
+              "precondition": false,
+              "children": [
+                {
+                  "number": 10,
+                  "description": "Adds todo items called: {}",
+                  "duration": 2,
+                  "startTime": 1483899040046,
+                  "result": "SUCCESS",
+                  "precondition": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "description": "Adds a todo item called: wash the dishes",
+          "duration": 258,
+          "startTime": 1483899040050,
+          "result": "SUCCESS",
+          "precondition": false
+        },
+        {
+          "number": 12,
+          "description": "Should see that displayed items contain: {wash the dishes}",
+          "duration": 52,
+          "startTime": 1483899040308,
+          "result": "SUCCESS",
+          "precondition": false
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "description": "Adding feed the ferrets",
+      "duration": 242,
+      "startTime": 1483899042473,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 14,
+          "description": "Starts with an empty todo list",
+          "duration": 46,
+          "startTime": 1483899040492,
+          "result": "SUCCESS",
+          "precondition": false,
+          "children": [
+            {
+              "number": 15,
+              "description": "Starts with a todo list containing: {}",
+              "duration": 44,
+              "startTime": 1483899040494,
+              "result": "SUCCESS",
+              "precondition": false,
+              "children": [
+                {
+                  "number": 16,
+                  "description": "Adds todo items called: {}",
+                  "duration": 2,
+                  "startTime": 1483899040535,
+                  "result": "SUCCESS",
+                  "precondition": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "description": "Adds a todo item called: feed the ferrets",
+          "duration": 137,
+          "startTime": 1483899040539,
+          "result": "SUCCESS",
+          "precondition": false
+        },
+        {
+          "number": 18,
+          "description": "Should see that displayed items contain: {feed the ferrets}",
+          "duration": 59,
+          "startTime": 1483899040676,
+          "result": "SUCCESS",
+          "precondition": false
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "description": "Adding count the rabbits",
+      "duration": 254,
+      "startTime": 1483899042473,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 20,
+          "description": "Starts with an empty todo list",
+          "duration": 52,
+          "startTime": 1483899040869,
+          "result": "SUCCESS",
+          "precondition": false,
+          "children": [
+            {
+              "number": 21,
+              "description": "Starts with a todo list containing: {}",
+              "duration": 50,
+              "startTime": 1483899040871,
+              "result": "SUCCESS",
+              "precondition": false,
+              "children": [
+                {
+                  "number": 22,
+                  "description": "Adds todo items called: {}",
+                  "duration": 2,
+                  "startTime": 1483899040918,
+                  "result": "SUCCESS",
+                  "precondition": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 23,
+          "description": "Adds a todo item called: count the rabbits",
+          "duration": 122,
+          "startTime": 1483899040922,
+          "result": "SUCCESS",
+          "precondition": false
+        },
+        {
+          "number": 24,
+          "description": "Should see that displayed items contain: {count the rabbits}",
+          "duration": 80,
+          "startTime": 1483899041044,
+          "result": "SUCCESS",
+          "precondition": false
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "description": "Adding ride the horses",
+      "duration": 253,
+      "startTime": 1483899042473,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 26,
+          "description": "Starts with an empty todo list",
+          "duration": 44,
+          "startTime": 1483899041238,
+          "result": "SUCCESS",
+          "precondition": false,
+          "children": [
+            {
+              "number": 27,
+              "description": "Starts with a todo list containing: {}",
+              "duration": 43,
+              "startTime": 1483899041239,
+              "result": "SUCCESS",
+              "precondition": false,
+              "children": [
+                {
+                  "number": 28,
+                  "description": "Adds todo items called: {}",
+                  "duration": 1,
+                  "startTime": 1483899041280,
+                  "result": "SUCCESS",
+                  "precondition": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 29,
+          "description": "Adds a todo item called: ride the horses",
+          "duration": 123,
+          "startTime": 1483899041283,
+          "result": "SUCCESS",
+          "precondition": false
+        },
+        {
+          "number": 30,
+          "description": "Should see that displayed items contain: {ride the horses}",
+          "duration": 86,
+          "startTime": 1483899041407,
+          "result": "SUCCESS",
+          "precondition": false
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "description": "Adding free the pigeons",
+      "duration": 275,
+      "startTime": 1483899042473,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 32,
+          "description": "Starts with an empty todo list",
+          "duration": 46,
+          "startTime": 1483899041645,
+          "result": "SUCCESS",
+          "precondition": false,
+          "children": [
+            {
+              "number": 33,
+              "description": "Starts with a todo list containing: {}",
+              "duration": 45,
+              "startTime": 1483899041646,
+              "result": "SUCCESS",
+              "precondition": false,
+              "children": [
+                {
+                  "number": 34,
+                  "description": "Adds todo items called: {}",
+                  "duration": 1,
+                  "startTime": 1483899041689,
+                  "result": "SUCCESS",
+                  "precondition": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 35,
+          "description": "Adds a todo item called: free the pigeons",
+          "duration": 119,
+          "startTime": 1483899041692,
+          "result": "SUCCESS",
+          "precondition": false
+        },
+        {
+          "number": 36,
+          "description": "Should see that displayed items contain: {free the pigeons}",
+          "duration": 110,
+          "startTime": 1483899041812,
+          "result": "SUCCESS",
+          "precondition": false
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "description": "Adding wrap the BIG_WIDGIT_CODE products",
+      "duration": 313,
+      "startTime": 1483899042474,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 38,
+          "description": "Starts with an empty todo list",
+          "duration": 42,
+          "startTime": 1483899042029,
+          "result": "SUCCESS",
+          "precondition": false,
+          "children": [
+            {
+              "number": 39,
+              "description": "Starts with a todo list containing: {}",
+              "duration": 41,
+              "startTime": 1483899042030,
+              "result": "SUCCESS",
+              "precondition": false,
+              "children": [
+                {
+                  "number": 40,
+                  "description": "Adds todo items called: {}",
+                  "duration": 1,
+                  "startTime": 1483899042069,
+                  "result": "SUCCESS",
+                  "precondition": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 41,
+          "description": "Adds a todo item called: wrap the BIG_WIDGIT_CODE products",
+          "duration": 149,
+          "startTime": 1483899042072,
+          "result": "SUCCESS",
+          "precondition": false
+        },
+        {
+          "number": 42,
+          "description": "Should see that displayed items contain: {wrap the BIG_WIDGIT_CODE products}",
+          "duration": 122,
+          "startTime": 1483899042221,
+          "result": "SUCCESS",
+          "precondition": false
+        }
+      ]
+    }
+  ],
+  "userStory": {
+    "id": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application.AddDifferentSortsOfTodos",
+    "storyName": "Add different sorts of todos",
+    "storyClassName": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application.AddDifferentSortsOfTodos",
+    "path": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Accessing the application/Add different sorts of todos",
+    "type": "feature"
+  },
+  "title": "Adding",
+  "tags": [
+    {
+      "name": "Accessing the application/Add different sorts of todos",
+      "type": "feature"
+    },
+    {
+      "name": "blue",
+      "type": "color"
+    },
+    {
+      "name": "Accessing the application",
+      "type": "capability"
+    },
+    {
+      "name": "PageObjects pattern",
+      "type": "tag"
+    },
+    {
+      "name": "RELEASE-3",
+      "type": "version"
+    }
+  ],
+  "startTime": 1483899042347,
+  "duration": 0,
+  "dataTable": {
+    "headers": [
+      "task"
+    ],
+    "rows": [
+      {
+        "values": [
+          "walk the lion"
+        ],
+        "result": "SUCCESS"
+      },
+      {
+        "values": [
+          "wash the dishes"
+        ],
+        "result": "SUCCESS"
+      },
+      {
+        "values": [
+          "feed the ferrets"
+        ],
+        "result": "SUCCESS"
+      },
+      {
+        "values": [
+          "count the rabbits"
+        ],
+        "result": "SUCCESS"
+      },
+      {
+        "values": [
+          "ride the horses"
+        ],
+        "result": "SUCCESS"
+      },
+      {
+        "values": [
+          "free the pigeons"
+        ],
+        "result": "SUCCESS"
+      },
+      {
+        "values": [
+          "wrap the BIG_WIDGIT_CODE products"
+        ],
+        "result": "SUCCESS"
+      }
+    ],
+    "predefinedRows": false,
+    "dataSetDescriptors": [
+      {
+        "startRow": 0,
+        "rowCount": 0
+      }
+    ]
+  },
+  "manual": false,
+  "result": "SUCCESS",
+  "versions": [
+    "RELEASE-3"
+  ]
+}

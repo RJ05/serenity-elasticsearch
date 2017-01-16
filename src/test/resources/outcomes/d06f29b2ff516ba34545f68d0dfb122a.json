@@ -1,0 +1,102 @@
+{
+  "name": "should_be_able_to_add_the_first_todo_item",
+  "id": "net.serenitybdd.demos.todos.pageobjects.features.record_todos.AddNewTodos:should_be_able_to_add_the_first_todo_item",
+  "testCaseName": "net.serenitybdd.demos.todos.pageobjects.features.record_todos.AddNewTodos",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Starts with an empty todo list",
+      "duration": 2457,
+      "startTime": 1483899180788,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 2,
+          "description": "Starts with a todo list containing: {}",
+          "duration": 2456,
+          "startTime": 1483899180789,
+          "result": "SUCCESS",
+          "precondition": false,
+          "children": [
+            {
+              "number": 3,
+              "description": "Adds todo items called: {}",
+              "duration": 1,
+              "startTime": 1483899183243,
+              "result": "SUCCESS",
+              "precondition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "description": "Adds a todo item called: Buy some milk",
+      "duration": 131,
+      "startTime": 1483899183245,
+      "result": "SUCCESS",
+      "precondition": false
+    },
+    {
+      "number": 5,
+      "description": "Should see that displayed items contain: {Buy some milk}",
+      "duration": 19,
+      "startTime": 1483899183377,
+      "result": "SUCCESS",
+      "precondition": false
+    }
+  ],
+  "userStory": {
+    "id": "net.serenitybdd.demos.todos.pageobjects.features.record_todos.AddNewTodos",
+    "storyName": "Add new todos",
+    "storyClassName": "net.serenitybdd.demos.todos.pageobjects.features.record_todos.AddNewTodos",
+    "path": "net.serenitybdd.demos.todos.pageobjects.features.record_todos",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Record todos/Add new todos",
+    "type": "feature"
+  },
+  "title": "Test to resolve issue #616172",
+  "coreIssues": [
+    "#616172"
+  ],
+  "tags": [
+    {
+      "name": "Record todos/Add new todos",
+      "type": "feature"
+    },
+    {
+      "name": "RELEASE-2",
+      "type": "version"
+    },
+    {
+      "name": "PageObjects pattern",
+      "type": "tag"
+    },
+    {
+      "name": "Record todos",
+      "type": "capability"
+    },
+    {
+      "name": "cheetahs",
+      "type": "scrum"
+    }
+  ],
+  "startTime": 1483899180707,
+  "duration": 2689,
+  "projectKey": "TODOMVC",
+  "sessionId": "d8aee9e1-f862-2947-9caf-5a67e4c5024d",
+  "driver": "provided",
+  "manual": false,
+  "testSource": "JUnit",
+  "result": "SUCCESS",
+  "issues": [
+    "#616172"
+  ],
+  "versions": [
+    "RELEASE-2"
+  ]
+}

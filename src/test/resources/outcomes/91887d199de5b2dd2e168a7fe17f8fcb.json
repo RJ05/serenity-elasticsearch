@@ -1,0 +1,158 @@
+{
+  "name": "should_see_the_number_of_todos_decrease_when_an_item_is_completed",
+  "id": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.CompleteATodo:should_see_the_number_of_todos_decrease_when_an_item_is_completed",
+  "testCaseName": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.CompleteATodo",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Starts with a todo list containing: {Walk the dog,Put out the garbage}",
+      "duration": 276,
+      "startTime": 1483899054365,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 2,
+          "description": "Adds todo items called: {Walk the dog,Put out the garbage}",
+          "duration": 234,
+          "startTime": 1483899054407,
+          "result": "SUCCESS",
+          "precondition": false,
+          "children": [
+            {
+              "number": 3,
+              "description": "Adds a todo item called: Walk the dog",
+              "duration": 99,
+              "startTime": 1483899054408,
+              "result": "SUCCESS",
+              "precondition": false
+            },
+            {
+              "number": 4,
+              "description": "Adds a todo item called: Put out the garbage",
+              "duration": 133,
+              "startTime": 1483899054507,
+              "result": "SUCCESS",
+              "precondition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "description": "Completes: Walk the dog",
+      "duration": 84,
+      "startTime": 1483899054641,
+      "result": "SUCCESS",
+      "precondition": false
+    },
+    {
+      "number": 6,
+      "description": "Should see that the number of items left is: 1",
+      "duration": 228,
+      "startTime": 1483899054726,
+      "screenshots": [
+        {
+          "screenshot": "ade332b41678c2f5a16f28d5878162cc.png",
+          "htmlSource": "pagesource4338464862838392942.html.txt"
+        }
+      ],
+      "exception": {
+        "errorType": "java.lang.AssertionError",
+        "message": "\nExpected: is \u003c1\u003e\n     but: was \u003c5\u003e",
+        "stackTrace": [
+          {
+            "declaringClass": "net.serenitybdd.demos.todos.pageobjects.steps.TodoUserSteps",
+            "methodName": "should_see_that_the_number_of_items_left_is",
+            "fileName": "TodoUserSteps.java",
+            "lineNumber": 105
+          },
+          {
+            "declaringClass": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.CompleteATodo",
+            "methodName": "should_see_the_number_of_todos_decrease_when_an_item_is_completed",
+            "fileName": "CompleteATodo.java",
+            "lineNumber": 69
+          }
+        ]
+      },
+      "result": "FAILURE",
+      "precondition": false
+    }
+  ],
+  "userStory": {
+    "id": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.CompleteATodo",
+    "storyName": "Complete a todo",
+    "storyClassName": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.CompleteATodo",
+    "path": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Completing todos/Complete a todo",
+    "type": "feature"
+  },
+  "title": "Should see the number of todos decrease when an item is completed",
+  "tags": [
+    {
+      "name": "Completing todos/Complete a todo",
+      "type": "feature"
+    },
+    {
+      "name": "Completing todos",
+      "type": "capability"
+    },
+    {
+      "name": "Assertion error",
+      "type": "error type"
+    },
+    {
+      "name": "RELEASE-2",
+      "type": "version"
+    },
+    {
+      "name": "PageObjects pattern",
+      "type": "tag"
+    },
+    {
+      "name": "red",
+      "type": "color"
+    },
+    {
+      "name": "cheetahs",
+      "type": "scrum"
+    }
+  ],
+  "startTime": 1483899054267,
+  "duration": 688,
+  "testFailureCause": {
+    "errorType": "java.lang.AssertionError",
+    "message": "\nExpected: is \u003c1\u003e\n     but: was \u003c5\u003e",
+    "stackTrace": [
+      {
+        "declaringClass": "net.serenitybdd.demos.todos.pageobjects.steps.TodoUserSteps",
+        "methodName": "should_see_that_the_number_of_items_left_is",
+        "fileName": "TodoUserSteps.java",
+        "lineNumber": 105
+      },
+      {
+        "declaringClass": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.CompleteATodo",
+        "methodName": "should_see_the_number_of_todos_decrease_when_an_item_is_completed",
+        "fileName": "CompleteATodo.java",
+        "lineNumber": 69
+      }
+    ]
+  },
+  "testFailureClassname": "java.lang.AssertionError",
+  "testFailureMessage": "\nExpected: is \u003c1\u003e\n     but: was \u003c5\u003e",
+  "testFailureSummary": "FAILURE;java.lang.AssertionError;\nExpected: is \u003c1\u003e\n     but: was \u003c5\u003e;TodoUserSteps.java:105",
+  "projectKey": "TODOMVC",
+  "annotatedResult": "FAILURE",
+  "sessionId": "18327961-9acc-b24f-a208-22e2e59afadc",
+  "driver": "provided",
+  "manual": false,
+  "testSource": "JUnit",
+  "result": "FAILURE",
+  "versions": [
+    "RELEASE-2"
+  ]
+}

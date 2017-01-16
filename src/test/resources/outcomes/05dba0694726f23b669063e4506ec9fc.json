@@ -1,0 +1,116 @@
+{
+  "name": "should_be_able_to_complete_a_todo",
+  "id": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.CompleteATodo:should_be_able_to_complete_a_todo",
+  "testCaseName": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.CompleteATodo",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Starts with a todo list containing: {Walk the dog,Put out the garbage}",
+      "duration": 2459,
+      "startTime": 1483899050804,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 2,
+          "description": "Adds todo items called: {Walk the dog,Put out the garbage}",
+          "duration": 289,
+          "startTime": 1483899052973,
+          "result": "SUCCESS",
+          "precondition": false,
+          "children": [
+            {
+              "number": 3,
+              "description": "Adds a todo item called: Walk the dog",
+              "duration": 144,
+              "startTime": 1483899052974,
+              "result": "SUCCESS",
+              "precondition": false
+            },
+            {
+              "number": 4,
+              "description": "Adds a todo item called: Put out the garbage",
+              "duration": 144,
+              "startTime": 1483899053118,
+              "result": "SUCCESS",
+              "precondition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "description": "Completes: Walk the dog",
+      "duration": 91,
+      "startTime": 1483899053263,
+      "result": "SUCCESS",
+      "precondition": false
+    },
+    {
+      "number": 6,
+      "description": "Should see that that following item is marked as complete: Walk the dog",
+      "duration": 19,
+      "startTime": 1483899053354,
+      "result": "SUCCESS",
+      "precondition": false
+    },
+    {
+      "number": 7,
+      "description": "Should see that the number of items left is: 1",
+      "duration": 18,
+      "startTime": 1483899053373,
+      "result": "SUCCESS",
+      "precondition": false
+    }
+  ],
+  "userStory": {
+    "id": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.CompleteATodo",
+    "storyName": "Complete a todo",
+    "storyClassName": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.CompleteATodo",
+    "path": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Completing todos/Complete a todo",
+    "type": "feature"
+  },
+  "title": "Should be able to complete a todo",
+  "tags": [
+    {
+      "name": "Completing todos/Complete a todo",
+      "type": "feature"
+    },
+    {
+      "name": "Completing todos",
+      "type": "capability"
+    },
+    {
+      "name": "RELEASE-2",
+      "type": "version"
+    },
+    {
+      "name": "PageObjects pattern",
+      "type": "tag"
+    },
+    {
+      "name": "red",
+      "type": "color"
+    },
+    {
+      "name": "cheetahs",
+      "type": "scrum"
+    }
+  ],
+  "startTime": 1483899050682,
+  "duration": 2709,
+  "projectKey": "TODOMVC",
+  "sessionId": "18327961-9acc-b24f-a208-22e2e59afadc",
+  "driver": "provided",
+  "manual": false,
+  "testSource": "JUnit",
+  "result": "SUCCESS",
+  "versions": [
+    "RELEASE-2"
+  ]
+}

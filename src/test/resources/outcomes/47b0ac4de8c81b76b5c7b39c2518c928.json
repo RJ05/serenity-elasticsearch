@@ -1,0 +1,166 @@
+{
+  "name": "should_be_able_to_finish_a_todo",
+  "id": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.CompleteATodo:should_be_able_to_finish_a_todo",
+  "testCaseName": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.CompleteATodo",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Starts with a todo list containing: {Walk the dog,Put out the garbage}",
+      "duration": 280,
+      "startTime": 1483899056546,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 2,
+          "description": "Adds todo items called: {Walk the dog,Put out the garbage}",
+          "duration": 235,
+          "startTime": 1483899056591,
+          "result": "SUCCESS",
+          "precondition": false,
+          "children": [
+            {
+              "number": 3,
+              "description": "Adds a todo item called: Walk the dog",
+              "duration": 119,
+              "startTime": 1483899056592,
+              "result": "SUCCESS",
+              "precondition": false
+            },
+            {
+              "number": 4,
+              "description": "Adds a todo item called: Put out the garbage",
+              "duration": 115,
+              "startTime": 1483899056711,
+              "result": "SUCCESS",
+              "precondition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "description": "Completes: Walk the dog",
+      "duration": 93,
+      "startTime": 1483899056827,
+      "result": "SUCCESS",
+      "precondition": false
+    },
+    {
+      "number": 6,
+      "description": "Should see that that following item is marked as complete: Walk the dog",
+      "duration": 215,
+      "startTime": 1483899056920,
+      "screenshots": [
+        {
+          "screenshot": "01decb953bba5eb5b31ca92bacf1dcc1.png",
+          "htmlSource": "pagesource1437798911584845900.html.txt"
+        }
+      ],
+      "exception": {
+        "errorType": "java.lang.AssertionError",
+        "message": "\nExpected: is \u003cCompleted\u003e\n     but: was \u003cActive\u003e",
+        "stackTrace": [
+          {
+            "declaringClass": "net.serenitybdd.demos.todos.pageobjects.steps.TodoUserSteps",
+            "methodName": "should_see_that_that_following_item_is_marked_as_complete",
+            "fileName": "TodoUserSteps.java",
+            "lineNumber": 90
+          },
+          {
+            "declaringClass": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.CompleteATodo",
+            "methodName": "should_be_able_to_finish_a_todo",
+            "fileName": "CompleteATodo.java",
+            "lineNumber": 45
+          }
+        ]
+      },
+      "result": "FAILURE",
+      "precondition": false
+    },
+    {
+      "number": 7,
+      "description": "Should see that the number of items left is: 1",
+      "duration": 0,
+      "startTime": 1483899057137,
+      "result": "SKIPPED",
+      "precondition": false
+    }
+  ],
+  "userStory": {
+    "id": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.CompleteATodo",
+    "storyName": "Complete a todo",
+    "storyClassName": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.CompleteATodo",
+    "path": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Completing todos/Complete a todo",
+    "type": "feature"
+  },
+  "title": "Should be able to finish a todo",
+  "tags": [
+    {
+      "name": "Completing todos/Complete a todo",
+      "type": "feature"
+    },
+    {
+      "name": "Completing todos",
+      "type": "capability"
+    },
+    {
+      "name": "Assertion error",
+      "type": "error type"
+    },
+    {
+      "name": "RELEASE-2",
+      "type": "version"
+    },
+    {
+      "name": "PageObjects pattern",
+      "type": "tag"
+    },
+    {
+      "name": "red",
+      "type": "color"
+    },
+    {
+      "name": "cheetahs",
+      "type": "scrum"
+    }
+  ],
+  "startTime": 1483899056435,
+  "duration": 703,
+  "testFailureCause": {
+    "errorType": "java.lang.AssertionError",
+    "message": "\nExpected: is \u003cCompleted\u003e\n     but: was \u003cActive\u003e",
+    "stackTrace": [
+      {
+        "declaringClass": "net.serenitybdd.demos.todos.pageobjects.steps.TodoUserSteps",
+        "methodName": "should_see_that_that_following_item_is_marked_as_complete",
+        "fileName": "TodoUserSteps.java",
+        "lineNumber": 90
+      },
+      {
+        "declaringClass": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.CompleteATodo",
+        "methodName": "should_be_able_to_finish_a_todo",
+        "fileName": "CompleteATodo.java",
+        "lineNumber": 45
+      }
+    ]
+  },
+  "testFailureClassname": "java.lang.AssertionError",
+  "testFailureMessage": "\nExpected: is \u003cCompleted\u003e\n     but: was \u003cActive\u003e",
+  "testFailureSummary": "FAILURE;java.lang.AssertionError;\nExpected: is \u003cCompleted\u003e\n     but: was \u003cActive\u003e;TodoUserSteps.java:90",
+  "projectKey": "TODOMVC",
+  "annotatedResult": "FAILURE",
+  "sessionId": "18327961-9acc-b24f-a208-22e2e59afadc",
+  "driver": "provided",
+  "manual": false,
+  "testSource": "JUnit",
+  "result": "FAILURE",
+  "versions": [
+    "RELEASE-2"
+  ]
+}

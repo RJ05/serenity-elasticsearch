@@ -1,0 +1,60 @@
+{
+  "name": "should_see_WHAT_to_begin",
+  "id": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application.LearnAboutTheApplication:should_see_WHAT_to_begin",
+  "testCaseName": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application.LearnAboutTheApplication",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Does something stupid",
+      "duration": 1,
+      "startTime": 1483899044365,
+      "result": "SUCCESS",
+      "precondition": false
+    }
+  ],
+  "userStory": {
+    "id": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application.LearnAboutTheApplication",
+    "storyName": "Learn about the application",
+    "storyClassName": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application.LearnAboutTheApplication",
+    "path": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Accessing the application/Learn about the application",
+    "type": "feature"
+  },
+  "title": "Should see WHAT to begin",
+  "tags": [
+    {
+      "name": "Accessing the application/Learn about the application",
+      "type": "feature"
+    },
+    {
+      "name": "Accessing the application",
+      "type": "capability"
+    },
+    {
+      "name": "PageObjects pattern",
+      "type": "tag"
+    },
+    {
+      "name": "RELEASE-1",
+      "type": "version"
+    },
+    {
+      "name": "red",
+      "type": "color"
+    }
+  ],
+  "startTime": 1483899044235,
+  "duration": 131,
+  "projectKey": "TODOMVC",
+  "sessionId": "5dbb7cd9-76eb-944d-aaaa-748fdde76e12",
+  "driver": "provided",
+  "manual": false,
+  "testSource": "JUnit",
+  "result": "SUCCESS",
+  "versions": [
+    "RELEASE-1"
+  ]
+}

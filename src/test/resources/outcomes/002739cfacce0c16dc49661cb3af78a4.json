@@ -1,0 +1,35 @@
+{
+  "name": "should_be_able_to_view_the_classes_for_a_given_package",
+  "id": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application.WhenConsultingPackageDetails:should_be_able_to_view_the_classes_for_a_given_package",
+  "testCaseName": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application.WhenConsultingPackageDetails",
+  "userStory": {
+    "id": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application.WhenConsultingPackageDetails",
+    "storyName": "When consulting package details",
+    "storyClassName": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application.WhenConsultingPackageDetails",
+    "path": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Accessing the application/When consulting package details",
+    "type": "feature"
+  },
+  "title": "Should be able to view the classes for a given package",
+  "tags": [
+    {
+      "name": "Accessing the application/When consulting package details",
+      "type": "feature"
+    },
+    {
+      "name": "Accessing the application",
+      "type": "capability"
+    }
+  ],
+  "startTime": 1483899046864,
+  "duration": 1640,
+  "projectKey": "TODOMVC",
+  "sessionId": "4c96b987-d5b6-a940-8c0e-092062666fc9",
+  "driver": "provided",
+  "manual": false,
+  "testSource": "JUnit",
+  "result": "SUCCESS"
+}

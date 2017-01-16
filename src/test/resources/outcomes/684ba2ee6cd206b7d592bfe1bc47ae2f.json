@@ -1,0 +1,108 @@
+{
+  "name": "should_see_that_there_are_zero_items_todo_when_all_are_toggled_complete",
+  "id": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.ToggleAllTodos:should_see_that_there_are_zero_items_todo_when_all_are_toggled_complete",
+  "testCaseName": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.ToggleAllTodos",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Starts with a todo list containing: {Walk the dog,Put out the garbage}",
+      "duration": 241,
+      "startTime": 1483899147906,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 2,
+          "description": "Adds todo items called: {Walk the dog,Put out the garbage}",
+          "duration": 213,
+          "startTime": 1483899147934,
+          "result": "SUCCESS",
+          "precondition": false,
+          "children": [
+            {
+              "number": 3,
+              "description": "Adds a todo item called: Walk the dog",
+              "duration": 98,
+              "startTime": 1483899147934,
+              "result": "SUCCESS",
+              "precondition": false
+            },
+            {
+              "number": 4,
+              "description": "Adds a todo item called: Put out the garbage",
+              "duration": 115,
+              "startTime": 1483899148032,
+              "result": "SUCCESS",
+              "precondition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "description": "Toggles all items",
+      "duration": 69,
+      "startTime": 1483899148148,
+      "result": "SUCCESS",
+      "precondition": false
+    },
+    {
+      "number": 6,
+      "description": "Should see that the number of items left is: 0",
+      "duration": 14,
+      "startTime": 1483899148217,
+      "result": "SUCCESS",
+      "precondition": false
+    }
+  ],
+  "userStory": {
+    "id": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.ToggleAllTodos",
+    "storyName": "Toggle all todos",
+    "storyClassName": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.ToggleAllTodos",
+    "path": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Completing todos/Toggle all todos",
+    "type": "feature"
+  },
+  "title": "Should see that there are zero items todo when all are toggled complete",
+  "tags": [
+    {
+      "name": "Completing todos/Toggle all todos",
+      "type": "feature"
+    },
+    {
+      "name": "Completing todos",
+      "type": "capability"
+    },
+    {
+      "name": "blue",
+      "type": "color"
+    },
+    {
+      "name": "PageObjects pattern",
+      "type": "tag"
+    },
+    {
+      "name": "RELEASE-1",
+      "type": "version"
+    },
+    {
+      "name": "cheetahs",
+      "type": "scrum"
+    }
+  ],
+  "startTime": 1483899147789,
+  "duration": 443,
+  "projectKey": "TODOMVC",
+  "sessionId": "c8e26dd1-89d2-f442-9120-18a8bda61318",
+  "driver": "provided",
+  "manual": false,
+  "testSource": "JUnit",
+  "result": "SUCCESS",
+  "versions": [
+    "RELEASE-1"
+  ]
+}

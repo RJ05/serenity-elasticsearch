@@ -1,0 +1,38 @@
+{
+  "_all": {
+    "enabled": false
+  },
+  "properties": {
+    "name": {
+      "type": "text"
+    },
+    "id": {
+      "type": "keyword"
+    },
+    "timestamp": {
+      "type": "date"
+    },
+    "environment": {
+      "type": "keyword"
+    },
+    "projectKey": {
+      "type": "keyword"
+    },
+    "capability": {
+      "type": "keyword"
+    },
+    "startTime": {
+      "type": "date"
+    },
+    "duration": {
+      "type": "long"
+    },
+    "result": {
+      "type": "keyword"
+    },
+    "testFailureSummary": {
+      "type": "text"
+    }
+  }
+}
+

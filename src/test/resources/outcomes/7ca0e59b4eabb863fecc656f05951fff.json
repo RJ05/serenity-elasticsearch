@@ -1,0 +1,220 @@
+{
+  "name": "should_be_able_to_quickly_complete_all_todos",
+  "id": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.ToggleAllTodos:should_be_able_to_quickly_complete_all_todos",
+  "testCaseName": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.ToggleAllTodos",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Starts with a todo list containing: {Walk the dog,Put out the garbage}",
+      "duration": 309,
+      "startTime": 1483899063837,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 2,
+          "description": "Adds todo items called: {Walk the dog,Put out the garbage}",
+          "duration": 236,
+          "startTime": 1483899063910,
+          "result": "SUCCESS",
+          "precondition": false,
+          "children": [
+            {
+              "number": 3,
+              "description": "Adds a todo item called: Walk the dog",
+              "duration": 116,
+              "startTime": 1483899063910,
+              "result": "SUCCESS",
+              "precondition": false
+            },
+            {
+              "number": 4,
+              "description": "Adds a todo item called: Put out the garbage",
+              "duration": 120,
+              "startTime": 1483899064026,
+              "result": "SUCCESS",
+              "precondition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "description": "Toggles all items",
+      "duration": 84,
+      "startTime": 1483899064147,
+      "result": "SUCCESS",
+      "precondition": false
+    },
+    {
+      "number": 6,
+      "description": "Should see that that following items are marked as complete: {Walk the dog,Put out the trash}",
+      "duration": 22288,
+      "startTime": 1483899064232,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 7,
+          "description": "Should see that that following item is marked as complete: Walk the dog",
+          "duration": 17,
+          "startTime": 1483899064233,
+          "result": "SUCCESS",
+          "precondition": false
+        },
+        {
+          "number": 8,
+          "description": "Should see that that following item is marked as complete: Put out the trash",
+          "duration": 22269,
+          "startTime": 1483899064251,
+          "screenshots": [
+            {
+              "screenshot": "1695af6d05eca23936de20e1c7e2459f.png",
+              "htmlSource": "pagesource7497637263967282338.html.txt"
+            }
+          ],
+          "exception": {
+            "errorType": "org.openqa.selenium.NoSuchElementException",
+            "message": "Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027view\u0027 and contains(.,\u0027Put out the trash\u0027)]\"}\nCommand duration or timeout: 2.10 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027Johns-MacBook-Pro-7.local\u0027, ip: \u0027192.168.0.31\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.12.2\u0027, java.version: \u00271.8.0_74\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled\u003dtrue, rotatable\u003dfalse, handlesAlerts\u003dtrue, databaseEnabled\u003dtrue, version\u003d45.6.0, platform\u003dMAC, nativeEvents\u003dfalse, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, locationContextEnabled\u003dtrue, browserName\u003dfirefox, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: c8e26dd1-89d2-f442-9120-18a8bda61318\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027view\u0027 and contains(.,\u0027Put out the trash\u0027)]}",
+            "stackTrace": [
+              {
+                "declaringClass": "net.serenitybdd.demos.todos.pageobjects.pages.TodoListPage",
+                "methodName": "isShownAsCompleted",
+                "fileName": "TodoListPage.java",
+                "lineNumber": 84
+              },
+              {
+                "declaringClass": "net.serenitybdd.demos.todos.pageobjects.pages.TodoListPage",
+                "methodName": "statusOf",
+                "fileName": "TodoListPage.java",
+                "lineNumber": 123
+              },
+              {
+                "declaringClass": "net.serenitybdd.demos.todos.pageobjects.steps.TodoUserSteps",
+                "methodName": "should_see_that_that_following_item_is_marked_as_complete",
+                "fileName": "TodoUserSteps.java",
+                "lineNumber": 90
+              },
+              {
+                "declaringClass": "net.serenitybdd.demos.todos.pageobjects.steps.TodoUserSteps",
+                "methodName": "should_see_that_that_following_items_are_marked_as_complete",
+                "fileName": "TodoUserSteps.java",
+                "lineNumber": 85
+              },
+              {
+                "declaringClass": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.ToggleAllTodos",
+                "methodName": "should_be_able_to_quickly_complete_all_todos",
+                "fileName": "ToggleAllTodos.java",
+                "lineNumber": 33
+              }
+            ]
+          },
+          "result": "ERROR",
+          "precondition": false
+        }
+      ]
+    }
+  ],
+  "userStory": {
+    "id": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.ToggleAllTodos",
+    "storyName": "Toggle all todos",
+    "storyClassName": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.ToggleAllTodos",
+    "path": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Completing todos/Toggle all todos",
+    "type": "feature"
+  },
+  "title": "Should be able to quickly complete all todos",
+  "coreIssues": [
+    "PROJ-12",
+    "PROJ-43"
+  ],
+  "tags": [
+    {
+      "name": "Completing todos/Toggle all todos",
+      "type": "feature"
+    },
+    {
+      "name": "Completing todos",
+      "type": "capability"
+    },
+    {
+      "name": "blue",
+      "type": "color"
+    },
+    {
+      "name": "No such element exception",
+      "type": "error type"
+    },
+    {
+      "name": "PageObjects pattern",
+      "type": "tag"
+    },
+    {
+      "name": "RELEASE-1",
+      "type": "version"
+    },
+    {
+      "name": "cheetahs",
+      "type": "scrum"
+    }
+  ],
+  "startTime": 1483899063737,
+  "duration": 72815,
+  "testFailureCause": {
+    "errorType": "org.openqa.selenium.NoSuchElementException",
+    "message": "Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027view\u0027 and contains(.,\u0027Put out the trash\u0027)]\"}\nCommand duration or timeout: 2.10 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027Johns-MacBook-Pro-7.local\u0027, ip: \u0027192.168.0.31\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.12.2\u0027, java.version: \u00271.8.0_74\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled\u003dtrue, rotatable\u003dfalse, handlesAlerts\u003dtrue, databaseEnabled\u003dtrue, version\u003d45.6.0, platform\u003dMAC, nativeEvents\u003dfalse, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, locationContextEnabled\u003dtrue, browserName\u003dfirefox, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: c8e26dd1-89d2-f442-9120-18a8bda61318\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027view\u0027 and contains(.,\u0027Put out the trash\u0027)]}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027Johns-MacBook-Pro-7.local\u0027, ip: \u0027192.168.0.31\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.12.2\u0027, java.version: \u00271.8.0_74\u0027\nDriver info: driver.version: unknown",
+    "stackTrace": [
+      {
+        "declaringClass": "net.serenitybdd.demos.todos.pageobjects.pages.TodoListPage",
+        "methodName": "isShownAsCompleted",
+        "fileName": "TodoListPage.java",
+        "lineNumber": 84
+      },
+      {
+        "declaringClass": "net.serenitybdd.demos.todos.pageobjects.pages.TodoListPage",
+        "methodName": "statusOf",
+        "fileName": "TodoListPage.java",
+        "lineNumber": 123
+      },
+      {
+        "declaringClass": "net.serenitybdd.demos.todos.pageobjects.steps.TodoUserSteps",
+        "methodName": "should_see_that_that_following_item_is_marked_as_complete",
+        "fileName": "TodoUserSteps.java",
+        "lineNumber": 90
+      },
+      {
+        "declaringClass": "net.serenitybdd.demos.todos.pageobjects.steps.TodoUserSteps",
+        "methodName": "should_see_that_that_following_items_are_marked_as_complete",
+        "fileName": "TodoUserSteps.java",
+        "lineNumber": 85
+      },
+      {
+        "declaringClass": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.ToggleAllTodos",
+        "methodName": "should_be_able_to_quickly_complete_all_todos",
+        "fileName": "ToggleAllTodos.java",
+        "lineNumber": 33
+      }
+    ]
+  },
+  "testFailureClassname": "org.openqa.selenium.NoSuchElementException",
+  "testFailureMessage": "Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027view\u0027 and contains(.,\u0027Put out the trash\u0027)]\"}\nCommand duration or timeout: 2.10 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027Johns-MacBook-Pro-7.local\u0027, ip: \u0027192.168.0.31\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.12.2\u0027, java.version: \u00271.8.0_74\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled\u003dtrue, rotatable\u003dfalse, handlesAlerts\u003dtrue, databaseEnabled\u003dtrue, version\u003d45.6.0, platform\u003dMAC, nativeEvents\u003dfalse, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, locationContextEnabled\u003dtrue, browserName\u003dfirefox, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: c8e26dd1-89d2-f442-9120-18a8bda61318\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027view\u0027 and contains(.,\u0027Put out the trash\u0027)]}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027Johns-MacBook-Pro-7.local\u0027, ip: \u0027192.168.0.31\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.12.2\u0027, java.version: \u00271.8.0_74\u0027\nDriver info: driver.version: unknown",
+  "testFailureSummary": "ERROR;org.openqa.selenium.NoSuchElementException;Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027view\u0027 and contains(.,\u0027Put out the trash\u0027)]\"}\nCommand duration or timeout: 2.10 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027Johns-MacBook-Pro-7.local\u0027, ip: \u0027192.168.0.31\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.12.2\u0027, java.version: \u00271.8.0_74\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled\u003dtrue, rotatable\u003dfalse, handlesAlerts\u003dtrue, databaseEnabled\u003dtrue, version\u003d45.6.0, platform\u003dMAC, nativeEvents\u003dfalse, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, locationContextEnabled\u003dtrue, browserName\u003dfirefox, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: c8e26dd1-89d2-f442-9120-18a8bda61318\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027view\u0027 and contains(.,\u0027Put out the trash\u0027)]}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027Johns-MacBook-Pro-7.local\u0027, ip: \u0027192.168.0.31\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.12.2\u0027, java.version: \u00271.8.0_74\u0027\nDriver info: driver.version: unknown;TodoListPage.java:84",
+  "projectKey": "TODOMVC",
+  "annotatedResult": "ERROR",
+  "sessionId": "c8e26dd1-89d2-f442-9120-18a8bda61318",
+  "driver": "provided",
+  "manual": false,
+  "testSource": "JUnit",
+  "result": "ERROR",
+  "issues": [
+    "PROJ-12",
+    "PROJ-43"
+  ],
+  "versions": [
+    "RELEASE-1"
+  ]
+}

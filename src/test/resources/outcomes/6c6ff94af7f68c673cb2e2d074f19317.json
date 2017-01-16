@@ -1,0 +1,51 @@
+{
+  "name": "should_see_how_many_items_todo_when_all_are_toggled_to_incomplete",
+  "id": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.ToggleAllTodos:should_see_how_many_items_todo_when_all_are_toggled_to_incomplete",
+  "testCaseName": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.ToggleAllTodos",
+  "userStory": {
+    "id": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.ToggleAllTodos",
+    "storyName": "Toggle all todos",
+    "storyClassName": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.ToggleAllTodos",
+    "path": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Completing todos/Toggle all todos",
+    "type": "feature"
+  },
+  "title": "Should see how many items todo when all are toggled to incomplete",
+  "tags": [
+    {
+      "name": "Completing todos/Toggle all todos",
+      "type": "feature"
+    },
+    {
+      "name": "Completing todos",
+      "type": "capability"
+    },
+    {
+      "name": "blue",
+      "type": "color"
+    },
+    {
+      "name": "PageObjects pattern",
+      "type": "tag"
+    },
+    {
+      "name": "RELEASE-1",
+      "type": "version"
+    }
+  ],
+  "startTime": 1483899063522,
+  "duration": 101,
+  "projectKey": "TODOMVC",
+  "annotatedResult": "PENDING",
+  "sessionId": "c8e26dd1-89d2-f442-9120-18a8bda61318",
+  "driver": "provided",
+  "manual": false,
+  "testSource": "JUnit",
+  "result": "PENDING",
+  "versions": [
+    "RELEASE-1"
+  ]
+}

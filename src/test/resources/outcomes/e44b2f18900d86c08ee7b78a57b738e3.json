@@ -1,0 +1,154 @@
+{
+  "name": "should_be_able_to_add_additional_todo_items",
+  "id": "net.serenitybdd.demos.todos.pageobjects.features.record_todos.AddNewTodos:should_be_able_to_add_additional_todo_items",
+  "testCaseName": "net.serenitybdd.demos.todos.pageobjects.features.record_todos.AddNewTodos",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Starts with a todo list containing: {Walk the dog,Put out the garbage}",
+      "duration": 259,
+      "startTime": 1483899183480,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 2,
+          "description": "Adds todo items called: {Walk the dog,Put out the garbage}",
+          "duration": 229,
+          "startTime": 1483899183510,
+          "result": "SUCCESS",
+          "precondition": false,
+          "children": [
+            {
+              "number": 3,
+              "description": "Adds a todo item called: Walk the dog",
+              "duration": 116,
+              "startTime": 1483899183511,
+              "result": "SUCCESS",
+              "precondition": false
+            },
+            {
+              "number": 4,
+              "description": "Adds a todo item called: Put out the garbage",
+              "duration": 111,
+              "startTime": 1483899183627,
+              "result": "SUCCESS",
+              "precondition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "description": "Adds a todo item called: Buy some milk",
+      "duration": 111,
+      "startTime": 1483899183739,
+      "result": "SUCCESS",
+      "precondition": false
+    },
+    {
+      "number": 6,
+      "description": "Should see that displayed items contain: {Walk the dog,Put out the garbage,Buy some cheese}",
+      "duration": 294,
+      "startTime": 1483899183850,
+      "screenshots": [
+        {
+          "screenshot": "c05b4d11ae300a621179e37c0cc929c2.png",
+          "htmlSource": "pagesource5970393770512084747.html.txt"
+        }
+      ],
+      "exception": {
+        "errorType": "java.lang.AssertionError",
+        "message": "\nExpected: (a collection containing \"Walk the dog\" and a collection containing \"Put out the garbage\" and a collection containing \"Buy some cheese\")\n     but: a collection containing \"Buy some cheese\" was \"Buy some milk\", was \"Walk the dog\", was \"Put out the garbage\", was \"Buy some milk\"",
+        "stackTrace": [
+          {
+            "declaringClass": "net.serenitybdd.demos.todos.pageobjects.steps.TodoUserSteps",
+            "methodName": "should_see_that_displayed_items_contain",
+            "fileName": "TodoUserSteps.java",
+            "lineNumber": 120
+          },
+          {
+            "declaringClass": "net.serenitybdd.demos.todos.pageobjects.features.record_todos.AddNewTodos",
+            "methodName": "should_be_able_to_add_additional_todo_items",
+            "fileName": "AddNewTodos.java",
+            "lineNumber": 43
+          }
+        ]
+      },
+      "result": "FAILURE",
+      "precondition": false
+    }
+  ],
+  "userStory": {
+    "id": "net.serenitybdd.demos.todos.pageobjects.features.record_todos.AddNewTodos",
+    "storyName": "Add new todos",
+    "storyClassName": "net.serenitybdd.demos.todos.pageobjects.features.record_todos.AddNewTodos",
+    "path": "net.serenitybdd.demos.todos.pageobjects.features.record_todos",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Record todos/Add new todos",
+    "type": "feature"
+  },
+  "title": "Should be able to add additional todo items",
+  "tags": [
+    {
+      "name": "Assertion error",
+      "type": "error type"
+    },
+    {
+      "name": "Record todos/Add new todos",
+      "type": "feature"
+    },
+    {
+      "name": "RELEASE-2",
+      "type": "version"
+    },
+    {
+      "name": "PageObjects pattern",
+      "type": "tag"
+    },
+    {
+      "name": "Record todos",
+      "type": "capability"
+    },
+    {
+      "name": "cheetahs",
+      "type": "scrum"
+    }
+  ],
+  "startTime": 1483899183405,
+  "duration": 739,
+  "testFailureCause": {
+    "errorType": "java.lang.AssertionError",
+    "message": "\nExpected: (a collection containing \"Walk the dog\" and a collection containing \"Put out the garbage\" and a collection containing \"Buy some cheese\")\n     but: a collection containing \"Buy some cheese\" was \"Buy some milk\", was \"Walk the dog\", was \"Put out the garbage\", was \"Buy some milk\"",
+    "stackTrace": [
+      {
+        "declaringClass": "net.serenitybdd.demos.todos.pageobjects.steps.TodoUserSteps",
+        "methodName": "should_see_that_displayed_items_contain",
+        "fileName": "TodoUserSteps.java",
+        "lineNumber": 120
+      },
+      {
+        "declaringClass": "net.serenitybdd.demos.todos.pageobjects.features.record_todos.AddNewTodos",
+        "methodName": "should_be_able_to_add_additional_todo_items",
+        "fileName": "AddNewTodos.java",
+        "lineNumber": 43
+      }
+    ]
+  },
+  "testFailureClassname": "java.lang.AssertionError",
+  "testFailureMessage": "\nExpected: (a collection containing \"Walk the dog\" and a collection containing \"Put out the garbage\" and a collection containing \"Buy some cheese\")\n     but: a collection containing \"Buy some cheese\" was \"Buy some milk\", was \"Walk the dog\", was \"Put out the garbage\", was \"Buy some milk\"",
+  "testFailureSummary": "FAILURE;java.lang.AssertionError;\nExpected: (a collection containing \"Walk the dog\" and a collection containing \"Put out the garbage\" and a collection containing \"Buy some cheese\")\n     but: a collection containing \"Buy some cheese\" was \"Buy some milk\", was \"Walk the dog\", was \"Put out the garbage\", was \"Buy some milk\";TodoUserSteps.java:120",
+  "projectKey": "TODOMVC",
+  "annotatedResult": "FAILURE",
+  "sessionId": "d8aee9e1-f862-2947-9caf-5a67e4c5024d",
+  "driver": "provided",
+  "manual": false,
+  "testSource": "JUnit",
+  "result": "FAILURE",
+  "versions": [
+    "RELEASE-2"
+  ]
+}

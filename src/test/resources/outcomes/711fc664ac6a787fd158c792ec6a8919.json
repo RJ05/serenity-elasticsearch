@@ -1,0 +1,104 @@
+{
+  "name": "should_be_able_to_identify_the_application",
+  "id": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application.LearnAboutTheApplication:should_be_able_to_identify_the_application",
+  "testCaseName": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application.LearnAboutTheApplication",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Starts with an empty todo list",
+      "duration": 47,
+      "startTime": 1483899044126,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 2,
+          "description": "Starts with a todo list containing: {}",
+          "duration": 45,
+          "startTime": 1483899044127,
+          "result": "SUCCESS",
+          "precondition": false,
+          "children": [
+            {
+              "number": 3,
+              "description": "Adds todo items called: {}",
+              "duration": 2,
+              "startTime": 1483899044170,
+              "result": "SUCCESS",
+              "precondition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "description": "Should see the correct website title",
+      "duration": 5,
+      "startTime": 1483899044173,
+      "result": "SUCCESS",
+      "precondition": false
+    },
+    {
+      "number": 5,
+      "description": "Should see the correct application heading",
+      "duration": 15,
+      "startTime": 1483899044179,
+      "result": "SUCCESS",
+      "precondition": false
+    },
+    {
+      "number": 6,
+      "description": "Should see the about section",
+      "duration": 28,
+      "startTime": 1483899044194,
+      "result": "SUCCESS",
+      "precondition": false
+    }
+  ],
+  "userStory": {
+    "id": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application.LearnAboutTheApplication",
+    "storyName": "Learn about the application",
+    "storyClassName": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application.LearnAboutTheApplication",
+    "path": "net.serenitybdd.demos.todos.pageobjects.features.accessing_the_application",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Accessing the application/Learn about the application",
+    "type": "feature"
+  },
+  "title": "Should be able to identify the application",
+  "tags": [
+    {
+      "name": "Accessing the application/Learn about the application",
+      "type": "feature"
+    },
+    {
+      "name": "Accessing the application",
+      "type": "capability"
+    },
+    {
+      "name": "PageObjects pattern",
+      "type": "tag"
+    },
+    {
+      "name": "RELEASE-1",
+      "type": "version"
+    },
+    {
+      "name": "red",
+      "type": "color"
+    }
+  ],
+  "startTime": 1483899044001,
+  "duration": 221,
+  "projectKey": "TODOMVC",
+  "sessionId": "5dbb7cd9-76eb-944d-aaaa-748fdde76e12",
+  "driver": "provided",
+  "manual": false,
+  "testSource": "JUnit",
+  "result": "SUCCESS",
+  "versions": [
+    "RELEASE-1"
+  ]
+}

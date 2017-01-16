@@ -1,0 +1,121 @@
+{
+  "name": "should_be_able_to_view_only_incomplete_todos",
+  "id": "net.serenitybdd.demos.todos.pageobjects.features.maintain_my_todo_list.FilteringTodos:should_be_able_to_view_only_incomplete_todos",
+  "testCaseName": "net.serenitybdd.demos.todos.pageobjects.features.maintain_my_todo_list.FilteringTodos",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Starts with a todo list containing: {Walk the dog,Put out the garbage}",
+      "duration": 12208,
+      "startTime": 1483899165377,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 2,
+          "description": "Adds todo items called: {Walk the dog,Put out the garbage}",
+          "duration": 272,
+          "startTime": 1483899177313,
+          "result": "SUCCESS",
+          "precondition": false,
+          "children": [
+            {
+              "number": 3,
+              "description": "Adds a todo item called: Walk the dog",
+              "duration": 132,
+              "startTime": 1483899177314,
+              "result": "SUCCESS",
+              "precondition": false
+            },
+            {
+              "number": 4,
+              "description": "Adds a todo item called: Put out the garbage",
+              "duration": 138,
+              "startTime": 1483899177447,
+              "result": "SUCCESS",
+              "precondition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "description": "Completes: Walk the dog",
+      "duration": 83,
+      "startTime": 1483899177585,
+      "result": "SUCCESS",
+      "precondition": false
+    },
+    {
+      "number": 6,
+      "description": "Filters items to show: Active",
+      "duration": 77,
+      "startTime": 1483899177668,
+      "result": "SUCCESS",
+      "precondition": false
+    },
+    {
+      "number": 7,
+      "description": "Should see that displayed items contain: {Put out the garbage}",
+      "duration": 18,
+      "startTime": 1483899177745,
+      "result": "SUCCESS",
+      "precondition": false
+    },
+    {
+      "number": 8,
+      "description": "Should see that displayed items do not contain: {Walk the dog}",
+      "duration": 20,
+      "startTime": 1483899177764,
+      "result": "SUCCESS",
+      "precondition": false
+    },
+    {
+      "number": 9,
+      "description": "Should see that the currently selected filter is: Active",
+      "duration": 15,
+      "startTime": 1483899177785,
+      "result": "SUCCESS",
+      "precondition": false
+    }
+  ],
+  "userStory": {
+    "id": "net.serenitybdd.demos.todos.pageobjects.features.maintain_my_todo_list.FilteringTodos",
+    "storyName": "Filtering todos",
+    "storyClassName": "net.serenitybdd.demos.todos.pageobjects.features.maintain_my_todo_list.FilteringTodos",
+    "path": "net.serenitybdd.demos.todos.pageobjects.features.maintain_my_todo_list",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Maintain my todo list/Filtering todos",
+    "type": "feature"
+  },
+  "title": "Should be able to view only incomplete todos",
+  "tags": [
+    {
+      "name": "lions",
+      "type": "scrum"
+    },
+    {
+      "name": "Maintain my todo list",
+      "type": "capability"
+    },
+    {
+      "name": "Maintain my todo list/Filtering todos",
+      "type": "feature"
+    },
+    {
+      "name": "PageObjects pattern",
+      "type": "tag"
+    }
+  ],
+  "startTime": 1483899165296,
+  "duration": 12504,
+  "projectKey": "TODOMVC",
+  "sessionId": "51ad879f-46fd-3e40-9b39-b3e4df380947",
+  "driver": "provided",
+  "manual": false,
+  "testSource": "JUnit",
+  "result": "SUCCESS"
+}

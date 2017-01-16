@@ -1,0 +1,147 @@
+{
+  "name": "should_see_deleting_a_todo_decreases_the_remaining_items_count",
+  "id": "net.serenitybdd.demos.todos.pageobjects.features.maintain_my_todo_list.DeleteTodos:should_see_deleting_a_todo_decreases_the_remaining_items_count",
+  "testCaseName": "net.serenitybdd.demos.todos.pageobjects.features.maintain_my_todo_list.DeleteTodos",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Starts with a todo list containing: {Walk the dog,Put out the garbage}",
+      "duration": 242,
+      "startTime": 1483899162976,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 2,
+          "description": "Adds todo items called: {Walk the dog,Put out the garbage}",
+          "duration": 210,
+          "startTime": 1483899163008,
+          "result": "SUCCESS",
+          "precondition": false,
+          "children": [
+            {
+              "number": 3,
+              "description": "Adds a todo item called: Walk the dog",
+              "duration": 105,
+              "startTime": 1483899163008,
+              "result": "SUCCESS",
+              "precondition": false
+            },
+            {
+              "number": 4,
+              "description": "Adds a todo item called: Put out the garbage",
+              "duration": 104,
+              "startTime": 1483899163114,
+              "result": "SUCCESS",
+              "precondition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "description": "Deletes: Walk the dog",
+      "duration": 27,
+      "startTime": 1483899163218,
+      "result": "SUCCESS",
+      "precondition": false
+    },
+    {
+      "number": 6,
+      "description": "Should see that the number of items left is: 1",
+      "duration": 223,
+      "startTime": 1483899163245,
+      "screenshots": [
+        {
+          "screenshot": "8c9867afac567090e0ea6dc5808ee0dd.png",
+          "htmlSource": "pagesource8214856228147179349.html.txt"
+        }
+      ],
+      "exception": {
+        "errorType": "java.lang.AssertionError",
+        "message": "\nExpected: is \u003c1\u003e\n     but: was \u003c2\u003e",
+        "stackTrace": [
+          {
+            "declaringClass": "net.serenitybdd.demos.todos.pageobjects.steps.TodoUserSteps",
+            "methodName": "should_see_that_the_number_of_items_left_is",
+            "fileName": "TodoUserSteps.java",
+            "lineNumber": 105
+          },
+          {
+            "declaringClass": "net.serenitybdd.demos.todos.pageobjects.features.maintain_my_todo_list.DeleteTodos",
+            "methodName": "should_see_deleting_a_todo_decreases_the_remaining_items_count",
+            "fileName": "DeleteTodos.java",
+            "lineNumber": 41
+          }
+        ]
+      },
+      "result": "FAILURE",
+      "precondition": false
+    }
+  ],
+  "userStory": {
+    "id": "net.serenitybdd.demos.todos.pageobjects.features.maintain_my_todo_list.DeleteTodos",
+    "storyName": "Delete todos",
+    "storyClassName": "net.serenitybdd.demos.todos.pageobjects.features.maintain_my_todo_list.DeleteTodos",
+    "path": "net.serenitybdd.demos.todos.pageobjects.features.maintain_my_todo_list",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Maintain my todo list/Delete todos",
+    "type": "feature"
+  },
+  "title": "Should see deleting a todo decreases the remaining items count",
+  "tags": [
+    {
+      "name": "Assertion error",
+      "type": "error type"
+    },
+    {
+      "name": "tigers",
+      "type": "scrum"
+    },
+    {
+      "name": "Maintain my todo list/Delete todos",
+      "type": "feature"
+    },
+    {
+      "name": "Maintain my todo list",
+      "type": "capability"
+    },
+    {
+      "name": "PageObjects pattern",
+      "type": "tag"
+    }
+  ],
+  "startTime": 1483899162898,
+  "duration": 570,
+  "testFailureCause": {
+    "errorType": "java.lang.AssertionError",
+    "message": "\nExpected: is \u003c1\u003e\n     but: was \u003c2\u003e",
+    "stackTrace": [
+      {
+        "declaringClass": "net.serenitybdd.demos.todos.pageobjects.steps.TodoUserSteps",
+        "methodName": "should_see_that_the_number_of_items_left_is",
+        "fileName": "TodoUserSteps.java",
+        "lineNumber": 105
+      },
+      {
+        "declaringClass": "net.serenitybdd.demos.todos.pageobjects.features.maintain_my_todo_list.DeleteTodos",
+        "methodName": "should_see_deleting_a_todo_decreases_the_remaining_items_count",
+        "fileName": "DeleteTodos.java",
+        "lineNumber": 41
+      }
+    ]
+  },
+  "testFailureClassname": "java.lang.AssertionError",
+  "testFailureMessage": "\nExpected: is \u003c1\u003e\n     but: was \u003c2\u003e",
+  "testFailureSummary": "FAILURE;java.lang.AssertionError;\nExpected: is \u003c1\u003e\n     but: was \u003c2\u003e;TodoUserSteps.java:105",
+  "projectKey": "TODOMVC",
+  "annotatedResult": "FAILURE",
+  "sessionId": "3451fd02-6b19-794e-b5e4-b1cd620d1c65",
+  "driver": "provided",
+  "manual": false,
+  "testSource": "JUnit",
+  "result": "FAILURE"
+}

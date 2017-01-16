@@ -1,0 +1,134 @@
+{
+  "name": "should_be_able_to_toggle_status_of_all_todos",
+  "id": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.ToggleAllTodos:should_be_able_to_toggle_status_of_all_todos",
+  "testCaseName": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.ToggleAllTodos",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Starts with a todo list containing: {Walk the dog,Put out the garbage}",
+      "duration": 10269,
+      "startTime": 1483899137332,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 2,
+          "description": "Adds todo items called: {Walk the dog,Put out the garbage}",
+          "duration": 238,
+          "startTime": 1483899147363,
+          "result": "SUCCESS",
+          "precondition": false,
+          "children": [
+            {
+              "number": 3,
+              "description": "Adds a todo item called: Walk the dog",
+              "duration": 127,
+              "startTime": 1483899147364,
+              "result": "SUCCESS",
+              "precondition": false
+            },
+            {
+              "number": 4,
+              "description": "Adds a todo item called: Put out the garbage",
+              "duration": 109,
+              "startTime": 1483899147492,
+              "result": "SUCCESS",
+              "precondition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "description": "Toggles all items",
+      "duration": 75,
+      "startTime": 1483899147601,
+      "result": "SUCCESS",
+      "precondition": false
+    },
+    {
+      "number": 6,
+      "description": "Toggles all items",
+      "duration": 75,
+      "startTime": 1483899147676,
+      "result": "SUCCESS",
+      "precondition": false
+    },
+    {
+      "number": 7,
+      "description": "Should see that that following items are marked as active: {Walk the dog,Put out the garbage}",
+      "duration": 29,
+      "startTime": 1483899147752,
+      "result": "SUCCESS",
+      "precondition": false,
+      "children": [
+        {
+          "number": 8,
+          "description": "Should see that that following item is marked as active: Walk the dog",
+          "duration": 15,
+          "startTime": 1483899147753,
+          "result": "SUCCESS",
+          "precondition": false
+        },
+        {
+          "number": 9,
+          "description": "Should see that that following item is marked as active: Put out the garbage",
+          "duration": 12,
+          "startTime": 1483899147768,
+          "result": "SUCCESS",
+          "precondition": false
+        }
+      ]
+    }
+  ],
+  "userStory": {
+    "id": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.ToggleAllTodos",
+    "storyName": "Toggle all todos",
+    "storyClassName": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos.ToggleAllTodos",
+    "path": "net.serenitybdd.demos.todos.pageobjects.features.completing_todos",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Completing todos/Toggle all todos",
+    "type": "feature"
+  },
+  "title": "Should be able to toggle status of all todos",
+  "tags": [
+    {
+      "name": "Completing todos/Toggle all todos",
+      "type": "feature"
+    },
+    {
+      "name": "Completing todos",
+      "type": "capability"
+    },
+    {
+      "name": "blue",
+      "type": "color"
+    },
+    {
+      "name": "PageObjects pattern",
+      "type": "tag"
+    },
+    {
+      "name": "RELEASE-1",
+      "type": "version"
+    },
+    {
+      "name": "cheetahs",
+      "type": "scrum"
+    }
+  ],
+  "startTime": 1483899137240,
+  "duration": 10541,
+  "projectKey": "TODOMVC",
+  "sessionId": "c8e26dd1-89d2-f442-9120-18a8bda61318",
+  "driver": "provided",
+  "manual": false,
+  "testSource": "JUnit",
+  "result": "SUCCESS",
+  "versions": [
+    "RELEASE-1"
+  ]
+}

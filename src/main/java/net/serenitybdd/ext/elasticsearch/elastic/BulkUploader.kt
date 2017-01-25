@@ -41,7 +41,7 @@ data class BulkUploader(val client: TransportClient,
 
             createIndexRequestBuilder.addMapping("scenario", mappingConfig().readText())
 
-            val indexResponse = createIndexRequestBuilder.execute().actionGet()
+            createIndexRequestBuilder.execute().actionGet()
         } catch (ignore: ResourceAlreadyExistsException) {
         }
     }

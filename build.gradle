@@ -11,6 +11,11 @@ buildscript {
     ext.kotlin_version = '1.0.6'
     ext.elasticsearch_version = '5.1.1'
     ext.lucene_version = '6.3.0'
+    ext.log4j_version = '2.7'
+    ext.slf4j_version = '1.7.22'
+    ext.commons_io_version = '2.4'
+    ext.junit_version = '4.12'
+    ext.groovy_version = '2.4.4'
 
     repositories {
         mavenCentral()
@@ -26,37 +31,34 @@ repositories {
     jcenter()
 }
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.3'
+}
+
 dependencies {
     compile(
-            'com.beust:jcommander:1.58',
             "org.elasticsearch.client:transport:${elasticsearch_version}",
-            'org.apache.logging.log4j:log4j-api:2.7',
-            'org.apache.logging.log4j:log4j-core:2.7',
+            "org.apache.logging.log4j:log4j-api:${log4j_version}",
+            "org.apache.logging.log4j:log4j-core:${log4j_version}",
             "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version",
-            'org.slf4j:slf4j-api:1.7.22',
-            'org.slf4j:slf4j-log4j12:1.7.22',
-            'commons-io:commons-io:2.4',
-            'com.beust:klaxon:0.24',
+            "org.slf4j:slf4j-api:${slf4j_version}",
+            "org.slf4j:slf4j-log4j12:${slf4j_version}",
+            "commons-io:commons-io:${commons_io_version}",
+            "com.beust:jcommander:1.58",
+            "com.beust:klaxon:0.24",
     )
 
-    testCompile('junit:junit:4.12')
+    testCompile('junit:junit:${junit_version}')
     testCompile(
-            'org.codehaus.groovy:groovy-all:2.4.4',
+            'org.codehaus.groovy:groovy-all:${groovy_version}',
             'org.spockframework:spock-core:1.0-groovy-2.4'
     )
 }
 
-//test {
-//    testLogging {
-//        showStandardStreams = true
-//        events 'standard_out', 'standard_error'
-//
-//    }
-//}
-
-tasks.withType(Test) {
-    testLogging {
-        showStandardStreams = true
-        events "started", "passed", "skipped", "failed", 'standard_out', 'standard_error'
+jar {
+    manifest {
+        attributes 'Main-Class': 'net.serenitybdd.ext.elasticsearch.UploadTestOutcomes'
     }
+
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
 }

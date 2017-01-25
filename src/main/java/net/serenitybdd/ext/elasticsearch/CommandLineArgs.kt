@@ -23,7 +23,7 @@ class CommandLineArgs {
     @Parameter(names = arrayOf("--environment", "-e"), description = "The environment the tests are running against", required = true)
     var environment = ""
 
-    @Parameter(names = arrayOf("-directory", "-d"), description = "Directory containing the JSON test outcomes", converter = FileConverter::class)
+    @Parameter(names = arrayOf("-g", "-d"), description = "Directory containing the JSON test outcomes", converter = FileConverter::class)
     var directory: File = File("target/site/serenity")
 
     @Parameter(names = arrayOf("--help", "-?"), help = true, description = "Display this message")

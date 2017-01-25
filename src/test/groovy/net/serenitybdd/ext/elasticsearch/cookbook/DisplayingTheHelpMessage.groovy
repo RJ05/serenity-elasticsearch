@@ -15,7 +15,7 @@ class DisplayingTheHelpMessage extends Specification {
         when:
             UploadTestOutcomes.main("--help");
         then:
-            console.toString().contains("Usage: net.serenitybdd.ext.elasticsearch.UploadTestOutcomes [options]")
+            console.toString().contains("Usage: java -jar elasticsearch-uploader.jar [options]")
             console.toString().contains("--host")
             console.toString().contains("--port")
     }

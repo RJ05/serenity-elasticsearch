@@ -11,7 +11,7 @@ object UploadTestOutcomes {
         val configuration = CommandLineArgs()
 
         val jCommander = JCommander(configuration, *args)
-        jCommander.setProgramName("net.serenitybdd.ext.elasticsearch.UploadTestOutcomes")
+        jCommander.setProgramName("java -jar elasticsearch-uploader.jar")
 
         if (configuration.help) {
             jCommander.usage()

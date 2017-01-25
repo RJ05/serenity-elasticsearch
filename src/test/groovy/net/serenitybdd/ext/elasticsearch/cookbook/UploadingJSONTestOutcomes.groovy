@@ -5,6 +5,7 @@ import net.serenitybdd.ext.elasticsearch.model.JSONTestOutcome
 import net.serenitybdd.ext.elasticsearch.model.TestResult
 import net.serenitybdd.ext.elasticsearch.upload.UploadOutcomes
 import org.apache.commons.codec.digest.DigestUtils
+import spock.lang.Ignore
 import spock.lang.Specification
 
 import java.nio.file.Paths
@@ -52,6 +53,7 @@ class UploadingJSONTestOutcomes extends Specification {
     }
 
 
+    @Ignore("This uploads data to a locally installed elasticsearch server - use for manual testing for now")
     def "uploads each JSON file in the specified directory"() {
         given:
             def directory = Paths.get(ClassLoader.getResource("/outcomes").path).toFile();

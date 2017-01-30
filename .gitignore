@@ -5,6 +5,3 @@ out
 *.ipr
 .gradle
 .idea
-gradle
-gradlew
-gradlew.bat

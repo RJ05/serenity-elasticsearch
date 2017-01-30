@@ -46,7 +46,7 @@ dependencies {
             "org.slf4j:slf4j-log4j12:${slf4j_version}",
             "commons-io:commons-io:${commons_io_version}",
             "com.beust:jcommander:1.58",
-            "com.beust:klaxon:0.24",
+            "com.beust:klaxon:0.27",
     )
 
     testCompile('junit:junit:${junit_version}')
